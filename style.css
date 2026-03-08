@@ -1,1 +1,96 @@
+/* universal selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* element selector */
+body {
+  font:
+    16px Arial,
+    sans-serif;
+  color: #222;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #dbe7f3;
+  padding: 15px;
+  border-bottom: 1px solid #999;
+}
+
+main {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+footer {
+  margin: 20px;
+  padding: 10px;
+  border-top: 1px solid #999;
+  font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 12px;
+}
+
+ul {
+  margin-left: 20px;
+  margin-bottom: 12px;
+  list-style-type: square; /* list-style property */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid #999;
+  padding: 8px;
+  text-align: left;
+}
+
+/* class selector */
+.nav-list {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.nav-item {
+  display: inline;
+  margin-right: 10px;
+}
+
+/* id selector */
+#main-content {
+  background-color: #ffffff;
+}
+
+#main-footer {
+  color: #444;
+}
+
+/* descendant selector */
+nav ul li a {
+  color: #003366;
+  text-decoration: none;
+}
+
+/* pseudo-class selector */
+nav ul li a:hover {
+  color: #cc0000;
+}
