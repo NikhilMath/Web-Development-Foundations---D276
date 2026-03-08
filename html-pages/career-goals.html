@@ -19,20 +19,47 @@
     </header>
     <main>
       <section>
-        <h1>Local Media Example</h1>
-        <h2>Image</h2>
-        <img src="image.jpg" alt="Local image" width="300" />
+        <h3>Local Media Examples</h3>
+        <h4>Where I want to work</h4>
+        <img src="/image/work-here.jpg" alt="Washington DC" width="300" />
         <h2>Audio</h2>
         <audio controls>
-          <source src="audio.mp3" type="audio/mpeg" />
+          <source src="/audio/audio-sample.mp3" type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
         <h2>Video</h2>
         <video controls width="400">
-          <source src="video.mp4" type="video/mp4" />
+          <source src="/video/cat_typing.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </section>
+      <section>
+        <h3>Form</h3>
+        <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+          <label for="fname">First Name:</label><br />
+          <input type="text" id="fname" name="firstname" required /><br /><br />
+          <label for="lname">Last Name:</label><br />
+          <input type="text" id="lname" name="lastname" required /><br /><br />
+          <label for="company">Company Name:</label><br />
+          <input type="text" id="company" name="company" required /><br /><br />
+          <label for="email">Email Address:</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+          <label for="phone">Phone Number:</label><br />
+          <input type="tel" id="phone" name="phone" required /><br /><br />
+          <label for="message">Message:</label><br />
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            cols="40"
+            required
+          ></textarea
+          ><br />
+          <p>Best Contact Time:</p>
+          <input type="radio" id="am" name="contacttime" value="am" required />
+          <label for="am">A.M.</label><br />
+          <input type="radio" id="pm" name="contacttime" value="pm" />
+          <label for="pm">P.M.</label><br />
     </main>
     <footer>
       <p>
